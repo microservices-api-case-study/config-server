@@ -7,10 +7,10 @@ spring:
           git:
             uri: https://github.com/microservices-api-case-study/configuration
             skip-ssl-validation: true
-            proxy:
-              https:
-                host: squid
-                port: "3128"
+#            proxy:
+#              https:
+#                host: squid
+#                port: "3128"
 server:
   port: 8888
   
